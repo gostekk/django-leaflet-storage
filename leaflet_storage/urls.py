@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from django.contrib.auth.views import login
+from django.contrib.auth import login
 from django.views.decorators.csrf import ensure_csrf_cookie
 from django.views.decorators.cache import never_cache, cache_control
 
